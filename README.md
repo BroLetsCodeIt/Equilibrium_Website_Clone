@@ -6,5 +6,7 @@
 
 
   
-[link text](https://www.youtube.com/watch?v=FCyN9RK7F50 'youtube')
+[link video](https://www.youtube.com/watch?v=FCyN9RK7F50 'youtube')
+
+- note : responsive is not done yet
   
