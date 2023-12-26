@@ -223,31 +223,43 @@ body {
 #main .home .banner .bannertext {
   text-align: left;
 }
-#main .home .future {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+#main .future {
   width: 100%;
   overflow: hidden;
   border-radius: 1rem;
   position: relative;
-  height: 100vh;
+  max-height: 100%;
+  margin-bottom: 3rem;
 }
-#main .home .future video {
-  top: 50%;
-  left: 50%;
-  position: absolute;
+#main .future video {
+  vertical-align: middle;
   width: 100%;
-  transform: translate(-50%, -50%);
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   opacity: 0;
+  transition: all ease-in-out 1s;
 }
-#main .home .future button {
+#main .future button {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   cursor: pointer;
+  position: absolute;
+  height: -moz-min-content;
+  height: min-content;
   z-index: 9;
   padding: 1rem 3rem;
   outline: none;
   border-radius: 3rem;
   border: none;
+  transition: all ease 1s;
+}
+#main .LOVE {
+  width: 100%;
+  text-align: center;
+  margin: 2rem 0;
+}
+#main .LOVE h1 {
+  padding-bottom: 1rem;
 }/*# sourceMappingURL=style.css.map */
